@@ -1,0 +1,28 @@
+.contato {
+    display: grid; /* torna a div um container grid */
+    place-items: center; /*shortcut para align e justify*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    height: 100vh;
+    background-color: rgb(30, 29, 29);  
+}
+
+.contato td, fieldset{
+    font-style: "Alegreya Sans", sans-serif;
+    color: #D2C8AE;
+    font-size: 20px;
+    
+}
+
+
+.contato input, textarea {
+    background-color: #D2C8AE;
+    color: black;
+    
+}
+
+@media screen and (max-width:768px) {
+    .contato {
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.desenvolvedores-article-header {
+    background-image: url(../images/lilith-02.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+}
+
+.desenvolvedores-article-header h1 {
+    margin-bottom: 10px;
+    font-family: 'Diablo', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 5px rgba(97, 97, 97, 0.5);
+    font-size: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .desenvolvedores-article-header {
+        
+    }
+}

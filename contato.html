@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Diablo IV - Contato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/common-styles.css">
+    <link rel="stylesheet" href="css/contato-styles.css">
+    <link rel="icon" type="image/x-icon" href="icons/diablo-iv-logo.ico">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-manu">
+            <ul class="menu-horizontal">
+                <li><img src="images/blizzard-logo.png"></li>
+                <li><img src="images/diablo-iv-logo.png" ></li>
+                <li><a href="../bimestre-1-trabalho-1-wellison/index.html">Página Inicial</a></li>
+                <li><a href="../bimestre-1-trabalho-1-wellison/classes.html">Classes</a></li>
+                <li><a href="../bimestre-1-trabalho-1-wellison/contato.html">Contato</a></li>
+                <li><a href="../bimestre-1-trabalho-1-wellison/desenvolvedores.html">Desenvolvedores</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <article>
+            <section>
+                    <div class="contato">
+                        <fieldset>
+                          <legend>Contato</legend>
+                          <form>
+                            <table>
+                              <tr>
+                                <td><label for="nome">Nome</label></td>
+                                <td><input size="40" type="text" name="nome" id="nome" required></td>
+                              </tr>
+                              <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input size="40" type="email" name="email" id="email" required></td>
+                              </tr>
+                              <tr>
+                                <td><label for="data">Data:</label></td>
+                                <td><input type="date" name="data" id="data" required></td>
+                              </tr>
+                              <tr>
+                                <td><label for="celular">Celular:</label></td>
+                                <td><input size="30" placeholder="(00) 00000-0000" type="tel" name="celular" id="celular" required></td>
+                              </tr>
+                              <tr>
+                                <td><label for="mensagem">Mensagem:</label></td>
+                                <td><textarea name="mensagem" id="mensagem" rows="10" cols="40" required></textarea></td>
+                              </tr>
+                              <tr>
+                                <td><label for="resposta">Receber resposta:</label></td>
+                                <td>
+                                  <input type="radio" checked name="resposta" id="resposta_email" value="email">
+                                  <label for="resposta_email">Email</label>
+                                  <input type="radio" name="resposta" id="resposta_celular" value="celular">
+                                  <label for="resposta_telefone">Celular</label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="2"><input type="submit" value="Enviar"></td>
+                              </tr>
+                            </table>
+                          </form>
+                        </fieldset>
+                      </div>
+                </div>
+        </article>
+    </main>
+
+    <footer class="footer-content">
+        <p>Todos os direitos reservados ©2024 Blizzard Entertainment, Inc.</p>
+    </footer>
+</body>

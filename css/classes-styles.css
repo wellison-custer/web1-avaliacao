@@ -1,0 +1,87 @@
+/*.classes-article-header {
+    width: 100%;
+} */
+
+.classes-article-header img {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.classes-article-header {
+    margin-top: 50px;
+    background-image: url(../images/diablo-iv-classes.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.classes-article-header h1 {
+    margin-bottom: 10px;
+    font-family: 'Diablo', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 5px rgba(97, 97, 97, 0.5);
+    font-size: 70px;
+}
+
+.classes-article-content {
+    width: 100%;
+    /* certifique-se de que o container tenha uma largura de 100% */
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px rgb(58, 55, 55);
+}
+
+.classes-article-content img {
+    width: 95%;
+    margin: 20px;
+    border: solid 1px black;
+    height: 450px;
+    width: 95%;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.classes-article-content h1 {
+    margin-bottom: 10px;
+    font-family: 'Diablo', sans-serif;
+    color: #D2C8AE;
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    margin: 15px;
+}
+
+.classes-article-content p {
+    font-style: "Alegreya Sans", sans-serif;
+    color: #D2C8AE;
+    text-align: justify;
+    /*margin-bottom: 20px;*/
+    font-size: 20px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .left {
+        flex: 100%;
+    }
+
+    .right {
+        flex: 100%;
+    }
+}
