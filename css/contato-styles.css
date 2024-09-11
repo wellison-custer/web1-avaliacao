@@ -1,5 +1,5 @@
 .contato {
-    display: grid; /* torna a div um container grid */
+    display: grid;
     place-items: center; /*shortcut para align e justify*/
     /*align-items: center;*/
     /*justify-content: center;*/

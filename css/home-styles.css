@@ -19,7 +19,6 @@
 
 
 .introduction-content {
-    /* Transforma esta div em um container flexivel e seta a direção dos itens do container para uma linha */
     background-color: #292c2c;
     display: flex;
     flex-direction: row;

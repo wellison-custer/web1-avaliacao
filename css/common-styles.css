@@ -29,23 +29,17 @@ body {
     list-style: none;
     /* remove os marcadores de lista */
     margin: 0;
-    /* remove a margem */
     padding: 0;
-    /* remove o preenchimento */
     display: flex;
-    /* torna a lista em um container flexível onde os elementos filhos se reorganizam dentro do elemento pai*/
     justify-content: space-between;
     /* distribui os itens igualmente */
     align-items: center;
-    /* alinha os itens verticalmente no meio */
-    /* Propriedade para ocupar os os cantos da div */
     width: 100%;
     border-bottom: solid 1px black;
 }
 
 .menu-horizontal li {
     margin-right: 40px;
-    /* adiciona uma margem à direita de cada item */
 }
 
 .menu-horizontal li img{
@@ -54,16 +48,13 @@ body {
 
 .menu-horizontal a {
     text-decoration: none;
-    /* remove a decoração do texto */
     color: #ffffff;
-    /* define a cor do texto */
     font-family: 'Diablo', sans-serif;
     font-size: 20px;
 }
 
 .menu-horizontal a:hover {
     color: #666;
-    /* define a cor do texto ao passar o mouse */
 }
 
 .footer-content {
