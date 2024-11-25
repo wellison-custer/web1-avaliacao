@@ -2,6 +2,13 @@
     width: 100%;
 } */
 
+/*Article header */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 135px;
+}
+
 .classes-article-header img {
     position: relative;
     margin-top: 50px;
@@ -30,6 +37,42 @@
     text-shadow: 3px 5px 5px rgba(97, 97, 97, 0.5);
     font-size: 70px;
 }
+
+/*Menu link classes */
+
+.classes-menu {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #1F2121;
+    padding: 10px;
+    position: sticky;
+    top: 50px; /* Fica visível quando você rola */
+    z-index: 999;
+    border: 1px solid black;
+}
+
+.classes-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.classes-menu li a {
+    text-decoration: none;
+    color: #D2C8AE;
+    font-family: 'Diablo', sans-serif;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.classes-menu li a:hover {
+    color: #666;
+}
+
+/* CLasses content */
+
 
 .classes-article-content {
     width: 100%;
@@ -76,6 +119,24 @@
     margin: 15px;
 }
 
+/* fade in para os paragrafos*/
+
+/* Classe que será aplicada para fazer o fade-in */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Classe para quando o elemento estiver visível */
+.fade-in.visible {
+    opacity: 1;
+}
+
+.fade-in:not(.visible) {
+    opacity: 0;
+}
+
+
 @media screen and (max-width:768px) {
     .left {
         flex: 100%;
@@ -83,5 +144,9 @@
 
     .right {
         flex: 100%;
+    }
+
+    .classes-menu {
+        top: 0;
     }
 }
